@@ -46,13 +46,13 @@ Build a CNN based model which can accurately detect melanoma.
     - We need to run for more epochs to get better accuracy
 
 ### Model 3
-#### Accuracy and Loss for model 3 - 500 images per class, 40 epochs
+#### Accuracy and Loss for model 3 - 500 images per class, 30 epochs
 ![Accuracy and Loss for model 3](images/model3_low.png)
 #### Accuracy and Loss for model 3 - 1500 images per class, 30 epochs
 ![Accuracy and Loss for model 3](images/model3.png)
-- Model 3 was trained for 30 epochs (1500 images) and 40 epochs (500 images)
+- Model 3 was trained for 30 epochs (1500 images) and (500 images)
 - Augmentor was used to reduce class imbalance
-- __1500 images are generated for each class instead of 500 to get better class balance__
+- __1500 images are generated for each class in addition to 500 to get better class balance__
 - Observations:
     - Final model is still overfitting slightly
     - Validation accuracy is much better than model 1 and model 2
