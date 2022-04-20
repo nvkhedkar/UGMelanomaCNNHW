@@ -1,5 +1,5 @@
 # Melanoma classification with CNN
-> - Build a CNN based model which can accurately detect melanoma. 
+Build a CNN based model which can accurately detect melanoma. 
 
 
 ## Table of Contents
