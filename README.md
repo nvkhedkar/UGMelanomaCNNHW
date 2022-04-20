@@ -20,6 +20,7 @@
 
 ## Conclusions
 ### Model 1
+#### #### Accuracy and Loss for model 1
 ![Accuracy and Loss for model 1](images/model1.png)
 - Model 1 was trained for 20 epochs with available data
 - Observations:
@@ -31,8 +32,9 @@
     - Handling class imbalance might help
   
 ### Model 2
+#### Accuracy and Loss for model 2 - keras augmentation
 ![Accuracy and Loss for model 2](images/model2.png)
-- Model 2 waa trained for 20 epochs with keras built-in data augmentation.
+- Model 2 was trained for 20 epochs with keras built-in data augmentation.
 - Following augmentations were used
     - Rotation
     - Zoom
@@ -44,8 +46,11 @@
     - We need to run for more epochs to get better accuracy
 
 ### Model 3
+#### Accuracy and Loss for model 3 - 500 images per class, 40 epochs
+![Accuracy and Loss for model 3](images/model3_low.png)
+#### Accuracy and Loss for model 3 - 1500 images per class, 30 epochs
 ![Accuracy and Loss for model 3](images/model3.png)
-- Model 3 was trained for 30 epochs
+- Model 3 was trained for 30 epochs (1500 images) and 40 epochs (500 images)
 - Augmentor was used to reduce class imbalance
 - __1500 images are generated for each class instead of 500 to get better class balance__
 - Observations:
@@ -55,6 +60,7 @@
     - Increasing number of epochs also helped
 
 #### Increasing Augmentor images to 1500 increases validation accuracy to 86%
+#### Increasing images and epochs further will help reduce overfitting
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
