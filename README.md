@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Melanoma classification with CNN
+> - Build a CNN based model which can accurately detect melanoma. 
 
 
 ## Table of Contents
